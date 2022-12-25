@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Login Test Suite">
+    <test name="Login Test">
+        <parameter name="email" value="test@example.com"/>
+        <parameter name="password" value="password123"/>
+        <classes>
+            <class name="Login_Test"/>
+        </classes>
+    </test>
+</suite>
